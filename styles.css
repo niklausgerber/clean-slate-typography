@@ -1,0 +1,802 @@
+@media only screen and (min-width: 320px) {
+    html,
+    body {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 100%;
+        -webkit-text-size-adjust: 100%;
+        font-variant-ligatures: none;
+        -webkit-font-variant-ligatures: none;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        color: black;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    {
+        margin: 0 0 0 0;
+        padding: 0 0 3% 0;
+    }
+    a,
+    a:link,
+    a:active,
+    a:visited {
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+        padding-bottom: 0;
+        background: linear-gradient(to top, rgba(255, 215, 0, .4) 35%, transparent 35%);
+    }
+    a:hover {
+        background: gold;
+        -ms-transition: .2s;
+        -moz-transition: .2s;
+        -webkit-transition: .2s;
+        transition: .2s;
+    }
+    @media only screen and (min-width: 320px) {
+        .s {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .xxl {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+    }
+    @media only screen and (min-width: 360px) {
+        .s {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        .xxl {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+    }
+    @media only screen and (min-width: 400px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 26px;
+            line-height: 44px;
+            font-weight: 400;
+        }
+        .xxl {
+            font-size: 26px;
+            line-height: 44px;
+            font-weight: 400;
+        }
+    }
+    @media only screen and (min-width: 480px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 3s2px;
+            line-height: 52px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 560px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 640px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 720px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 38px;
+            line-height: 64px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 800px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        .xl {
+            font-size: 38px;
+            line-height: 64px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 42px;
+            line-height: 68px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 26px;
+            line-height: 44px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 42pxs;
+            line-height: 68px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 46px;
+            line-height: 76px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1120px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 28px;
+            line-height: 48px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 44px;
+            line-height: 72px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 50px;
+            line-height: 84px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1280px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 46px;
+            line-height: 76px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 56px;
+            line-height: 92px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 48px;
+            line-height: 80px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 60px;
+            line-height: 100px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1600px) {
+        .s {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 50px;
+            line-height: 84px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 64px;
+            line-height: 104px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1760px) {
+        .s {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 28px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 38px;
+            line-height: 64px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 54px;
+            line-height: 88px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 66px;
+            line-height: 108px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 1920px) {
+        .s {
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 28px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 42px;
+            line-height: 68px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 56px;
+            line-height: 92px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 68px;
+            line-height: 112px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2080px) {
+        .s {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 44px;
+            line-height: 72px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 58px;
+            line-height: 96px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 70px;
+            line-height: 116px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2240px) {
+        .s {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 46px;
+            line-height: 76px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 60px;
+            line-height: 100px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 74px;
+            line-height: 112px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2400px) {
+        .s {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 48px;
+            line-height: 80px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 64px;
+            line-height: 104px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 76px;
+            line-height: 124px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2560px) {
+        .s {
+            font-size: 26px;
+            line-height: 44px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 50px;
+            line-height: 84px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 66px;
+            line-height: 108px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 78px;
+            line-height: 128px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2720px) {
+        .s {
+            font-size: 28px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 54px;
+            line-height: 88px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 68px;
+            line-height: 112px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 80px;
+            line-height: 132px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 2880px) {
+        .s {
+            font-size: 28px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 56px;
+            line-height: 92px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 70px;
+            line-height: 116px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 84px;
+            line-height: 136px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3040px) {
+        .s {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 38px;
+            line-height: 64px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 58px;
+            line-height: 96px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 74px;
+            line-height: 120px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 86px;
+            line-height: 140px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3200px) {
+        .s {
+            font-size: 32px;
+            line-height: 52px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 38px;
+            line-height: 64px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 60px;
+            line-height: 100px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 76px;
+            line-height: 124px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 88px;
+            line-height: 144px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3360px) {
+        .s {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 42px;
+            line-height: 68px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 64px;
+            line-height: 104px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 78px;
+            line-height: 128px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 90px;
+            line-height: 148px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3520px) {
+        .s {
+            font-size: 34px;
+            line-height: 56px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 42px;
+            line-height: 68px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 66px;
+            line-height: 108px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 80px;
+            line-height: 132px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 92px;
+            line-height: 152px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3680px) {
+        .s {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 44px;
+            line-height: 72px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 68px;
+            line-height: 112px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 84px;
+            line-height: 136px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 96px;
+            line-height: 156px;
+            font-weight: 300;
+        }
+    }
+    @media only screen and (min-width: 3840px) {
+        .s {
+            font-size: 36px;
+            line-height: 60px;
+            font-weight: 400;
+        }
+        .m,
+        p {
+            font-size: 44px;
+            line-height: 72px;
+            font-weight: 400;
+        }
+        .l {
+            font-size: 70px;
+            line-height: 116px;
+            font-weight: 300;
+        }
+        .xl {
+            font-size: 86px;
+            line-height: 140px;
+            font-weight: 300;
+        }
+        .xxl {
+            font-size: 98px;
+            line-height: 160px;
+            font-weight: 300;
+        }
+    }
+}
