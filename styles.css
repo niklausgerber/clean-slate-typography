@@ -4,12 +4,16 @@
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 100%;
         -webkit-text-size-adjust: 100%;
-        font-variant-ligatures: none;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100% font-variant-ligatures: none;
         -webkit-font-variant-ligatures: none;
         text-rendering: optimizeLegibility;
         -moz-osx-font-smoothing: grayscale;
         font-smoothing: antialiased;
         -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
         text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
         color: black;
         background-color: white;
@@ -42,6 +46,11 @@
         -moz-transition: .2s;
         -webkit-transition: .2s;
         transition: .2s;
+    }
+    main {
+        max-width: 980px;
+        width: 90%;
+        margin: 0 auto 0 auto;
     }
     @media only screen and (min-width: 320px) {
         .s {
